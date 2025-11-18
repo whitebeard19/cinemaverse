@@ -1,0 +1,26 @@
+{
+  "name": "cinemaverse",
+  "version": "1.0.0",
+  "description": "Intelligent Movie Discovery Platform",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "watch-test": "jest --watch"
+  },
+  "author": "basith",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.10.1",
+    "@tailwindcss/postcss": "^4.1.17",
+    "date-fns": "^4.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-redux": "^9.2.0",
+    "react-router": "^7.9.5",
+    "tailwindcss": "^4.1.17"
+  }
+}
