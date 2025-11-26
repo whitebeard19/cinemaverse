@@ -67,7 +67,6 @@ const Login = () => {
             // Login logic
             signInWithEmailAndPassword(auth, email.current.value, password.current.value)
                 .then((user) => {
-                    console.log(user);
                     const {uid, email, displayName} = auth.currentUser;
                     dispatch(
                         addUser({
