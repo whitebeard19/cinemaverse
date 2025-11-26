@@ -115,7 +115,7 @@ const Login = () => {
                     )
                 }
                 <input ref={email} type="text" placeholder="Email" className="p-2 my-4 bg-gray-800 w-full rounded-xs"/>
-                <input ref={password} type="text" placeholder="Password" className="p-2 my-4 bg-gray-800 w-full rounded-xs"/>
+                <input ref={password} type="password" placeholder="Password" className="p-2 my-4 bg-gray-800 w-full rounded-xs"/>
 
                 <p className="text-red-500">{errorMessage}</p>
                 
