@@ -6,6 +6,7 @@ import { getErrorMessage } from "../services/firebaseErrors";
 import { useDispatch, useSelector } from "react-redux";
 import { addUser } from "../store/authSlice";
 import { useNavigate } from "react-router";
+import { NETFLIX_BG } from "../services/constants";
 
 const Login = () => {
 
@@ -98,7 +99,7 @@ const Login = () => {
                 <img src={logo} alt="logo-cineverse" className="w-28 sm:w-48"/>
             </div>
             <div className="absolute inset-0 -z-10">
-                <img className="w-full h-full object-cover" src="https://assets.nflxext.com/ffe/siteui/vlv3/05e91faa-6f6d-4325-934e-5418dcc2567b/web/IN-en-20250630-TRIFECTA-perspective_159086b1-425f-435b-bcd5-1ed8039cdef9_large.jpg" alt="bg-img" />
+                <img className="w-full h-full object-cover" src={NETFLIX_BG} alt="bg-img" />
             </div>
             <form 
                 onSubmit={(e) => e.preventDefault()}

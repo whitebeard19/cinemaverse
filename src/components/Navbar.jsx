@@ -14,7 +14,7 @@ const Navbar = () => {
                 dispatch(removeUser());
             })
             .catch((error) => {
-                console.log(error.code);
+                alert(error.code);
             })
     }
 

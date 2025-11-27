@@ -7,8 +7,6 @@ const Favorites = () => {
 
     const movies = useSelector((store) => store.favorite.movies);
 
-    console.log(movies);
-
     return (
         <div>
             <div className='flex flex-wrap mx-12'>
